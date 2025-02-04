@@ -1,0 +1,142 @@
+text,intent,label
+"I need to temporarily turn off my internet.","safe_custody",1
+"I want to pause my broadband for a while.","safe_custody",1
+"How do I disable my WiFi for some time?","safe_custody",1
+"Stop my internet connection for now.","safe_custody",1
+"I want to freeze my broadband for a few days.","safe_custody",1
+"Can you suspend my fiber connection temporarily?","safe_custody",1
+"I don’t need WiFi for now—can I turn it off?","safe_custody",1
+"Please put my internet on hold.","safe_custody",1
+"How do I deactivate my broadband for a short period?","safe_custody",1
+"Can you halt my fiber internet temporarily?","safe_custody",1
+"I won’t be using my WiFi—can I pause it?","safe_custody",1
+"Disable my broadband service for a bit.","safe_custody",1
+"I need a break from the internet. Can I stop it?","safe_custody",1
+"How can I put my WiFi on standby?","safe_custody",1
+"I want to temporarily shut down my internet service.","safe_custody",1
+"Can you suspend my broadband for a month?","safe_custody",1
+"I’m going on vacation. Can I freeze my fiber connection?","safe_custody",1
+"I don’t need WiFi for a while—how do I turn it off?","safe_custody",1
+"Please pause my internet connection.","safe_custody",1
+"How do I temporarily stop my fiber service?","safe_custody",1
+"Can I put my broadband on hold?","safe_custody",1
+"I want to suspend my WiFi for a few weeks.","safe_custody",1
+"How can I deactivate my internet for a short time?","safe_custody",1
+"Stop my broadband service temporarily.","safe_custody",1
+"I need to disable my fiber internet for now.","safe_custody",1
+"Can I switch off my broadband temporarily?","safe_custody",1
+"I want to turn off my internet access for some time.","safe_custody",1
+"How do I pause my WiFi connection?","safe_custody",1
+"Please disable my broadband for a short while.","safe_custody",1
+"I want to suspend my fiber connection for a few days.","safe_custody",1
+"Can I stop my internet plan for a bit?","safe_custody",1
+"How can I temporarily stop my broadband service?","safe_custody",1
+"I need to put my internet connection on hold.","safe_custody",1
+"Can you turn off my WiFi for a few hours?","safe_custody",1
+"I’m moving—can I freeze my broadband for a while?","safe_custody",1
+"I want to deactivate my internet plan for a short time.","safe_custody",1
+"Please suspend my fiber connection until I reactivate it.","safe_custody",1
+"How can I turn off my broadband without canceling it?","safe_custody",1
+"Stop my internet for a few days but keep my account active.","safe_custody",1
+"I don’t need WiFi for now—please pause it.","safe_custody",1
+"Can you hold my broadband plan for a while?","safe_custody",1
+"I won’t be home—can I turn off my fiber internet?","safe_custody",1
+"Please put my internet plan on standby.","safe_custody",1
+"I need to temporarily disconnect my WiFi.","safe_custody",1
+"Can I disable my broadband without losing my plan?","safe_custody",1
+"I want to put my fiber connection on hold for some time.","safe_custody",1
+"How do I stop my internet temporarily without canceling?","safe_custody",1
+"I need a break from my broadband—how can I pause it?","safe_custody",1
+"Can you temporarily cut off my WiFi service?","safe_custody",1
+"I want to stop using my internet for now—how do I do that?","safe_custody",1
+"I need a new broadband connection.","non_safe_custody",2
+"Can you increase my internet speed?","non_safe_custody",2
+"My WiFi is not working, can you help?","non_safe_custody",2
+"I want to change my internet plan.","non_safe_custody",2
+"How do I check my data usage?","non_safe_custody",2
+"Can I upgrade my broadband speed?","non_safe_custody",2
+"Why is my internet connection slow?","non_safe_custody",2
+"I need a technician to fix my broadband.","non_safe_custody",2
+"How do I reset my router?","non_safe_custody",2
+"Is there an outage in my area?","non_safe_custody",2
+"Can you help me set up my WiFi?","non_safe_custody",2
+"I want to switch to a different ISP.","non_safe_custody",2
+"How do I change my WiFi password?","non_safe_custody",2
+"Can I add more data to my broadband plan?","non_safe_custody",2
+"I need to pay my internet bill.","non_safe_custody",2
+"How can I cancel my broadband subscription?","non_safe_custody",2
+"My internet is disconnecting frequently.","non_safe_custody",2
+"I want a new fiber connection at my home.","non_safe_custody",2
+"Can you activate my internet service?","non_safe_custody",2
+"I lost my WiFi login details.","non_safe_custody",2
+"How do I contact customer support?","non_safe_custody",2
+"My broadband speed is lower than promised.","non_safe_custody",2
+"Can I transfer my internet connection to a new address?","non_safe_custody",2
+"What are the best broadband plans available?","non_safe_custody",2
+"I need a WiFi booster for better coverage.","non_safe_custody",2
+"My fiber connection is unstable.","non_safe_custody",2
+"Can you tell me my current internet speed?","non_safe_custody",2
+"How do I enable parental controls on my WiFi?","non_safe_custody",2
+"I want to set up a guest WiFi network.","non_safe_custody",2
+"Does my internet plan have a data cap?","non_safe_custody",2
+"How can I check my broadband usage history?","non_safe_custody",2
+"My internet bill seems incorrect.","non_safe_custody",2
+"I want to switch from prepaid to postpaid broadband.","non_safe_custody",2
+"Can I extend my WiFi range?","non_safe_custody",2
+"My router keeps restarting randomly.","non_safe_custody",2
+"How do I configure a static IP address?","non_safe_custody",2
+"Can I get a discount on my broadband bill?","non_safe_custody",2
+"How do I port my internet service to another provider?","non_safe_custody",2
+"What are the installation charges for a new connection?","non_safe_custody",2
+"Can I use my own router with my broadband service?","non_safe_custody",2
+"How do I check for firmware updates on my router?","non_safe_custody",2
+"Can I temporarily increase my internet speed?","non_safe_custody",2
+"How do I share my WiFi connection securely?","non_safe_custody",2
+"My broadband keeps disconnecting at night.","non_safe_custody",2
+"I want to report an issue with my fiber connection.","non_safe_custody",2
+"Can I set up auto-pay for my broadband bill?","non_safe_custody",2
+"How do I configure my router for better performance?","non_safe_custody",2
+"Is there a way to track devices connected to my WiFi?","non_safe_custody",2
+"How do I enable guest mode on my broadband router?","non_safe_custody",2
+What is the weather like today?,"non_airtel",0
+Can you tell me the time?,"non_airtel",0
+Where is the nearest restaurant?,"non_airtel",0
+How do I get to the airport?,"non_airtel",0
+Give me the directions to the nearest gas station,"non_airtel",0
+Tell me the news,"non_airtel",0
+Where can I buy a phone?,"non_airtel",0
+Give me the contact number for the manager,"non_airtel",0
+Send me the details of the meeting,"non_airtel",0
+How do I apply for a job?,"non_airtel",0
+What is the capital of France?,"non_airtel",0
+Give me a summary of the report,"non_airtel",0
+Tell me a joke,"non_airtel",0
+Give me a list of top movies,"non_airtel",0
+What's the news today?,"non_airtel",0
+Is it going to rain tomorrow?,"non_airtel",0
+I need to check my bank balance,"non_airtel",0
+Please send me the file,"non_airtel",0
+How many hours left for my flight?,"non_airtel",0
+Show me pictures of cute animals,"non_airtel",0
+Tell me how to fix a broken TV,"non_airtel",0
+Can you find a good restaurant nearby?,"non_airtel",0
+Give me the phone number for tech support,"non_airtel",0
+Send me the presentation,"non_airtel",0
+How can I improve my fitness?,"non_airtel",0
+What is the latest sports update?,"non_airtel",0
+Find me a good hotel in New York,"non_airtel",0
+Can you help me find a job?,"non_airtel",0
+What time is it in London?,"non_airtel",0
+Find me a gym nearby,"non_airtel",0
+Tell me how to get to the nearest bus stop,"non_airtel",0
+Find me a coffee shop,"non_airtel",0
+What is the meaning of life?,"non_airtel",0
+What's the stock price for Tesla?,"non_airtel",0
+Can you send me the invoice?,"non_airtel",0
+Please read me the latest email,"non_airtel",0
+Give me directions to the nearest airport,"non_airtel",0
+What is your favorite color?,"non_airtel",0
+Give me a brief overview of the meeting,"non_airtel",0
+Can you recommend a movie?,"non_airtel",0
+Send me an invoice,"non_airtel",0
+Find me the best restaurants in Paris,"non_airtel",0

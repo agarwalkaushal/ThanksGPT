@@ -1,0 +1,59 @@
+text,intent,label
+"I want to turn off my broadband for a few days.","safe_custody",1
+"Can I pause my internet connection temporarily?","safe_custody",1
+"Please suspend my WiFi for a short period.","safe_custody",1
+"How do I deactivate my fiber internet for now?","safe_custody",1
+"I need to stop my broadband temporarily.","safe_custody",1
+"Can you disable my internet service for some time?","safe_custody",1
+"Put my WiFi on hold for a while.","safe_custody",1
+"How do I pause my broadband without canceling it?","safe_custody",1
+"I won’t be using my internet—can I turn it off?","safe_custody",1
+"Please freeze my fiber connection until further notice.","safe_custody",1
+"I need a new broadband connection.","non_safe_custody",2
+"Can you increase my internet speed?","non_safe_custody",2
+"My WiFi is not working, can you help?","non_safe_custody",2
+"I want to change my internet plan.","non_safe_custody",2
+"How do I check my data usage?","non_safe_custody",2
+"Can I upgrade my broadband speed?","non_safe_custody",2
+"Why is my internet connection slow?","non_safe_custody",2
+"I need a technician to fix my broadband.","non_safe_custody",2
+"How do I reset my router?","non_safe_custody",2
+"Is there an outage in my area?","non_safe_custody",2
+Where is the nearest airport?,"non_airtel",0
+What time is the meeting?,"non_airtel",0
+Tell me the weather forecast for tomorrow,"non_airtel",0
+Find me a good restaurant nearby,"non_airtel",0
+What is the capital of Japan?,"non_airtel",0
+Can you check the weather in New York?,"non_airtel",0
+What time does the train leave?,"non_airtel",0
+Tell me a funny joke,"non_airtel",0
+Find me the nearest coffee shop,"non_airtel",0
+How do I get to the park?,"non_airtel",0
+I need to know the stock prices for today,"non_airtel",0
+Please give me the latest news updates,"non_airtel",0
+Can you help me with directions?,"non_airtel",0
+What's the price of Bitcoin?,"non_airtel",0
+Tell me the sports scores,"non_airtel",0
+I need a good workout plan,"non_airtel",0
+Find me a good deal on a laptop,"non_airtel",0
+What’s the nearest movie theater?,"non_airtel",0
+Can you send me a list of all available items?,"non_airtel",0
+I need a good vacation destination,"non_airtel",0
+Can you find a local gym?,"non_airtel",0
+What's the time in Sydney?,"non_airtel",0
+Tell me how to repair my phone,"non_airtel",0
+How do I apply for a job?,"non_airtel",0
+Please check if my order has been shipped,"non_airtel",0
+I want to buy a new phone,"non_airtel",0
+Give me the directions to the nearest hotel,"non_airtel",0
+Can you help me find a good restaurant?,"non_airtel",0
+What is the latest stock price for Apple?,"non_airtel",0
+Find me a good article on AI,"non_airtel",0
+I need to buy new shoes,"non_airtel",0
+Tell me a motivational quote,"non_airtel",0
+What's the latest tech news?,"non_airtel",0
+Can you find the nearest bank?,"non_airtel",0
+Find me a great restaurant,"non_airtel",0
+Can you send me the report by email?,"non_airtel",0
+How do I improve my productivity?,"non_airtel",0
+Can you find me a good place to stay?,"non_airtel",0
