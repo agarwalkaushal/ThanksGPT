@@ -7,20 +7,22 @@ model = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME, num_label
 
 dataset = load_dataset("csv", data_files={"train": "train.csv", "test": "test.csv"})
 
+#Doubt: padding="max_length" and instead use padding=True
 def tokenize_function(examples):
-    tokens = tokenizer(examples["text"], padding="max_length", truncation=True)
+    tokens = tokenizer(examples["text"], padding=True, truncation=True)
     tokens["labels"] = examples["label"]
     return tokens
 
 tokenized_datasets = dataset.map(tokenize_function, batched=True)
 tokenized_datasets = tokenized_datasets.remove_columns(["text", "intent"])
 
+#Doubt: Increase num_train_epochs=5 or 10.
 training_args = TrainingArguments(
     output_dir="./results",
     evaluation_strategy="epoch",
     per_device_train_batch_size=8,
     per_device_eval_batch_size=8,
-    num_train_epochs=3,
+    num_train_epochs=10,
     save_strategy="epoch",
     load_best_model_at_end=True
 )

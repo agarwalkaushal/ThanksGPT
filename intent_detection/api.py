@@ -1,13 +1,11 @@
 from fastapi import FastAPI
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 import torch
-from datasets import load_dataset
 
 app = FastAPI()
 
-dataset = load_dataset("csv", data_files={"train": "train.csv", "test": "test.csv"})
-intent_mapping = {intent: i for i, intent in enumerate(set(dataset["train"]["intent"]))} 
-reverse_intent_mapping = {v: k for k, v in intent_mapping.items()} 
+intent_mapping = {'non_airtel': 0, 'safe_custody': 1, 'non_safe_custody': 2}
+reverse_intent_mapping = {0: 'non_airtel', 1: 'safe_custody', 2: 'non_safe_custody'}
 
 @app.get("/")
 def home():
@@ -25,7 +23,7 @@ def detect_intent(text: str):
         outputs = model(**inputs)
 
     probabilities = torch.nn.functional.softmax(outputs.logits, dim=-1)[0]
-
+    print(probabilities)
     intents = [
         {"intent": reverse_intent_mapping[i], "probability": prob.item()}
         for i, prob in enumerate(probabilities)
